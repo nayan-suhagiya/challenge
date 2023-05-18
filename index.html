@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Converter</title>
+        <script src="script.js"></script>
+        <style>
+            * {
+                list-style: none;
+            }
+        </style>
+    </head>
+    <body style="text-align: center">
+        <nav>
+            <h4>Convert symbol to number!</h4>
+        </nav>
+        <main style="display: flex; justify-content: center">
+            <table border="l">
+                <thead>
+                    <tr>
+                        <th>Symbol</th>
+                        <th>Value</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>I</td>
+                        <td>1</td>
+                    </tr>
+                    <tr>
+                        <td>V</td>
+                        <td>5</td>
+                    </tr>
+                    <tr>
+                        <td>X</td>
+                        <td>10</td>
+                    </tr>
+                    <tr>
+                        <td>L</td>
+                        <td>50</td>
+                    </tr>
+                    <tr>
+                        <td>C</td>
+                        <td>100</td>
+                    </tr>
+                    <tr>
+                        <td>D</td>
+                        <td>500</td>
+                    </tr>
+                    <tr>
+                        <td>M</td>
+                        <td>1000</td>
+                    </tr>
+                </tbody>
+            </table>
+        </main>
+        <div style="margin-top: 1.5rem">
+            <button onclick="openPrompt()">Start!</button>
+        </div>
+        <div style="margin-top: 1rem">
+            <small>
+                Example:
+                <span>
+                    <ul>
+                        <li>Input: "LVIII"</li>
+                        <li>Output: 58</li>
+                        <li>Explanation: L=50,V=5,III=3</li>
+                    </ul>
+                </span>
+            </small>
+        </div>
+    </body>
+</html>
